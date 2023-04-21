@@ -2,7 +2,7 @@
 import telebot
 import random
 # para crear un tunel entre el servidor web local y una URL pública en internet
-from pyngrok import ngrok, conf
+# from pyngrok import ngrok, conf
 from waitress import serve
 from telebot import time
 from loader import bot, web_server
@@ -63,16 +63,16 @@ bot.set_my_commands([telebot.types.BotCommand("/start", "Te damos la bienvenida"
 
 # Ejecuta el bot
 # definimos la ruta del arhivo de configuracion de ngrok
-conf.get_default().config_path = "./config_ngrok.yml"
+# conf.get_default().config_path = "./config_ngrok.yml"
 # configuramos la región del servidor de ngrok
-conf.get_default().region = "us"
+# conf.get_default().region = "us"
 # crear el archivo de credenciales de la API de ngrok
-ngrok.set_auth_token(NGROK_TOKEN)
+# ngrok.set_auth_token(NGROK_TOKEN)
 # crear un túnel HTTPS en el puerto 5000
-ngrok_tunel = ngrok.connect(5000, bind_tls=True)
+# ngrok_tunel = ngrok.connect(5000, bind_tls=True)
 # URL del túnel creado
-ngrok_url = ngrok_tunel.public_url
-print("URL NGROK: ", ngrok_url)
+# ngrok_url = ngrok_tunel.public_url
+# print("URL NGROK: ", ngrok_url)
 # eliminar webhook anterior
 bot.remove_webhook()
 time.sleep(1)
