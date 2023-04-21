@@ -74,12 +74,13 @@ bot.set_my_commands([telebot.types.BotCommand("/start", "Te damos la bienvenida"
 # ngrok_url = ngrok_tunel.public_url
 # print("URL NGROK: ", ngrok_url)
 # eliminar webhook anterior
-bot.remove_webhook()
-time.sleep(1)
-# definir el webhook
-bot.set_webhook(url="https://infinitetreasuresbot.up.railway.app/")
-# iniciar el servidor
-serve(web_server, host="0.0.0.0", port=5000)
-# web_server.run(host="0.0.0.0", port=5000)
+if __name__ == '__main__':
+    bot.remove_webhook()
+    time.sleep(1)
+    # definir el webhook
+    bot.set_webhook(url="https://infinitetreasuresbot.up.railway.app/")
+    # iniciar el servidor
+    serve(web_server, host="0.0.0.0", port=443)
+    # web_server.run(host="0.0.0.0", port=5000)
 
-# bot.infinity_polling(timeout=30, skip_pending=True)
+    # bot.infinity_polling(timeout=30, skip_pending=True)
