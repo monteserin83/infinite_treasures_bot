@@ -70,7 +70,7 @@ AGENDAS_TEXT = "📒 <b>AGENDAS</b> \n\nAgendas engargoladas de media carta (8.5
     \n40 páginas sin rayas\n\n<b>¡CON CALENDARIO Y MARCADOR INCLUIDOS!</b> \n\n💰 <b>PRECIO:</b> $ 100 MN"
 
 STICKERS_TEXT = "🩹 <b>CALCOMANÍAS</b> \n\n😱 <b><i>AGOTADO POR EL MOMENTO</i></b>\
-    \n\nCalcomanías impresas en papel fotográfico adhesivo \nTamaño máximo: 7 cm \n\n💰 <b>PRECIO: </b> $ 25 MN"
+    \n\nCalcomanías impresas en papel fotográfico adhesivo \nTamaño máximo: 7 cm \n\n💰 <b>PRECIO: </b> $ 30 MN"
 
 CHIBI_TEXT = "🪆 <b>CHIBI</b> \n\nFiguras de acción tipo Chibi. \
     \n\n<b>¡ESCOGE TU PERSONAJE FAVORITO!</b>\
@@ -86,4 +86,4 @@ ACTION_FIGURES_TEXT = "💪 <b>FIGURAS DE ACCIÓN</b> \
     \n\n💰 <b>PRECIO:</b> <i>🤔 Lo siento, de momento este producto no está disponible</i>"
 
 POSTERS_TEXT = "📃 <b>POSTER</b> \n\nPosters. \n\n<b>¡ESCOGE TUS PERSONAJES O SERIES FAVORITAS!</b> \
-    \nNo olvides escribirlo en el <b>Mensaje de personalización</b>. \n\n💰 <b>PRECIO:</b> $ 40 MN"
+    \nNo olvides escribirlo en el <b>Mensaje de personalización</b>. \n\n💰 <b>PRECIO:</b> $ 50 MN"
