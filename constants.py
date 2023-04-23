@@ -67,7 +67,7 @@ LLAVEROS_TEXT = "🔑 <b>LLAVEROS</b> \n\nPlasticados. \
     \n\n💰 <b>PRECIO:</b> $ 125 MN"
 
 AGENDAS_TEXT = "📒 <b>AGENDAS</b> \n\nAgendas engargoladas de media carta (8.50 x 5.50 pulg) \
-    \n40 páginas \n\n<b>¡CON CALENDARIO Y MARCADOR INCLUIDOS!</b> \n\n💰 <b>PRECIO:</b> $ 100 MN"
+    \n40 páginas sin rayas\n\n<b>¡CON CALENDARIO Y MARCADOR INCLUIDOS!</b> \n\n💰 <b>PRECIO:</b> $ 100 MN"
 
 STICKERS_TEXT = "🩹 <b>CALCOMANÍAS</b> \n\n😱 <b><i>AGOTADO POR EL MOMENTO</i></b>\
     \n\nCalcomanías impresas en papel fotográfico adhesivo \nTamaño máximo: 7 cm \n\n💰 <b>PRECIO: </b> $ 25 MN"

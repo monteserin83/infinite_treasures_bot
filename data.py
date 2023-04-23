@@ -32,11 +32,11 @@ productos = {"Llavero":
              {"precio": 125, "imagen": "./assets/llaveros.jpg",
                  "texto": LLAVEROS_TEXT, "stock": "DISPONIBLE"},
              "Agenda": {"precio": 100, "imagen": "./assets/agendas.jpg", "texto": AGENDAS_TEXT, "stock": "DISPONIBLE"},
-             "Calcomanía": {"precio": 25, "imagen": "./assets/calcomanías.jpg",
+             "Calcomanía": {"precio": 30, "imagen": "./assets/calcomanías.jpg",
                             "texto": STICKERS_TEXT, "stock": "AGOTADO"},
              "Chibi": {"precio": 150, "imagen": "./assets/chibi.jpg", "texto": CHIBI_TEXT, "stock": "DISPONIBLE"},
              "Poster3D": {"precio": 150, "imagen": "./assets/poster3D.jpg", "texto": POSTER3D_TEXT, "stock": "DISPONIBLE"},
              "Figuras de acción": {"precio": 300, "imagen": "./assets/action_figures.jpg",
                                    "texto": ACTION_FIGURES_TEXT, "stock": "AGOTADO"},
-             "Poster": {"precio": 40, "imagen": "./assets/poster.jpg", "texto": POSTERS_TEXT, "stock": "DISPONIBLE"},
+             "Poster": {"precio": 50, "imagen": "./assets/poster.jpg", "texto": POSTERS_TEXT, "stock": "DISPONIBLE"},
              }
