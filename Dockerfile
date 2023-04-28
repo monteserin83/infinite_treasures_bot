@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster
+FROM python:latest
 
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
@@ -7,8 +7,10 @@ WORKDIR /animinosBot
 
 COPY requirements.txt /animinosBot/
 
-RUN pip3 install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python3", "main.py"]
+EXPOSE 5000
+
+# CMD ["python3", "main.py"]
