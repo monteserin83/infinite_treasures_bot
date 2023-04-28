@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  bot:
+    build: .
+    container_name: animinos_bot
+    volumes:
+      - .:/animinosBot
+    ports:
+      - 443:443

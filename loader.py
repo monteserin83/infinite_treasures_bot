@@ -16,9 +16,8 @@ bot = telebot.TeleBot(API_TOKEN, parse_mode="html")
 # instanciar el servidor web
 web_server = Flask(__name__)
 
+
 # gestionar las peticiones POST enviadas al servidor web
-
-
 @web_server.route('/', methods=['POST'])
 def webhook():
     if request.headers.get("content-type") == "application/json":
