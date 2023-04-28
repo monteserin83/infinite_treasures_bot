@@ -1,9 +1,9 @@
 version: "3.9"
 services:
   bot:
+    container_name: animinos_bot
     build: .
     command: python main.py
-    container_name: animinos_bot
     volumes:
       - .:/animinosBot
     ports:
